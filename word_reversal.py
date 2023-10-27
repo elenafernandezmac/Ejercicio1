@@ -1,0 +1,7 @@
+print("escribe una oración")
+frase_input = input()
+frase_list = frase_input.split(" ")
+print(frase_list)
+frase_list.reverse()
+frase_output = " ".join(frase_list)
+print(frase_output)
